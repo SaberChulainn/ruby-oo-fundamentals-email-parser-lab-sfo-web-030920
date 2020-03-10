@@ -10,7 +10,8 @@ class EmailAddressParser
   end
   
   def parse(emails=0) 
-    @email = @emails.join(emails)
+    @email = email
+    @email
   end
   binding.pry
   puts "."
