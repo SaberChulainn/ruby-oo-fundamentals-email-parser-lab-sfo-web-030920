@@ -12,5 +12,10 @@ class EmailAddressParser
   
   def parse
     @email_addresses.split()
+    counter = 0 
+    while counter < @email_addresses.length 
+      @email_addresses
+    
+    end
   end
 end
