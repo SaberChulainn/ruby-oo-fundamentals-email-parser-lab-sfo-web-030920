@@ -13,6 +13,4 @@ class EmailAddressParser
     @email = email
     @email
   end
-  binding.pry
-  puts "."
 end
