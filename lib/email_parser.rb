@@ -5,7 +5,7 @@
 require 'pry'
 class EmailAddressParser 
   attr_accessor :email
-  @all = []
+  @@all = []
   def initialize(email)
     @email = email
     @@all << email
