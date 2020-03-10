@@ -8,7 +8,7 @@ class EmailAddressParser
   
   def initialize(email)
     @email_addresses = []
-    @email_addresses << email.split()
+    @email_addresses.push(email.split())
   end
   
   def parse
