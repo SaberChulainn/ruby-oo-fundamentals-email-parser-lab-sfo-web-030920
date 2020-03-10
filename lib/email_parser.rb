@@ -11,7 +11,7 @@ class EmailAddressParser
     @@all << email
   end
   
-  def parse(email)
-    @@all.push(email)
+  def parse
+    @@all
   end
 end
