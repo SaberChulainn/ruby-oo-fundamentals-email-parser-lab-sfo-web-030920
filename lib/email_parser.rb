@@ -14,7 +14,7 @@ class EmailAddressParser
     @email_addresses.split()
     counter = 0 
     while counter < @email_addresses.length 
-      @email_addresses
+      
     
     end
   end
