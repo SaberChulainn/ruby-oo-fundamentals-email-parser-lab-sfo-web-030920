@@ -6,8 +6,7 @@ require 'pry'
 class EmailAddressParser 
   attr_accessor :email_addresses
   def initialize(email)
-    result = email.gsub(',', '')
-    @email_addresses = result
+    @email_addresses = email.gsub(',', '')
   end
   
   def parse
