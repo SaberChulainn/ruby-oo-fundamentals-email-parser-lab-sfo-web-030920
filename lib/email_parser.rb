@@ -11,6 +11,7 @@ class EmailAddressParser
   end
   
   def parse
+    if @email_addresses.include()
     #@email_addresses.split()
     binding.pry
     puts "wtf"
