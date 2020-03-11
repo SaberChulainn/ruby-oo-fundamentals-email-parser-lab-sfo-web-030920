@@ -13,8 +13,8 @@ class EmailAddressParser
   
   def parse
     @email_addresses = @email_addresses.split
-    binding.pry
-    puts "."
+    # binding.pry
+    # puts "."
     
   end
 end
