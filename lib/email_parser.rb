@@ -12,6 +12,7 @@ class EmailAddressParser
   
   def parse
     @email_addresses = @email_addresses.split
+    @email_addresses.unique
     # binding.pry
     # puts "."
     
