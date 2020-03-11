@@ -7,11 +7,11 @@ class EmailAddressParser
   attr_accessor :email_addresses
   def initialize(email)
     @email_addresses = []
+    email.tr(',', '')
     @email_addresses = email
   end
   
   def parse
-    @email_addresses.tr(',', '')
     @email_addresses = @email_addresses.split
     binding.pry
     puts "."
