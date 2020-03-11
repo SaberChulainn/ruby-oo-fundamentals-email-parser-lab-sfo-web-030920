@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    @email_addresses.each{|string| puts string.tr("/,(\s+)?/", '')}
+    @email_addresses.each {|string| puts string.tr("/,(\s+)?/", '')}
     #@email_addresses.split()
     binding.pry
     puts "wtf"
