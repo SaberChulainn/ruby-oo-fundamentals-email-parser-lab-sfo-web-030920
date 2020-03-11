@@ -12,10 +12,9 @@ class EmailAddressParser
   
   def parse
     @email_addresses.delete(',')
-    @email_addresses.map { |word| word.gsub(',') }
-    #@email_addresses.split()
+    @email_addresses.split()
     binding.pry
-    puts "wtf"
+    puts "."
     
   end
 end
