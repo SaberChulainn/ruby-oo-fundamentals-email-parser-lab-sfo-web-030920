@@ -11,6 +11,8 @@ class EmailAddressParser
   end
   
   def parse
+    @email_addresses.include?(",")
+    @email_addresses.delete(,)
     @email_addresses.split()
 
   end
