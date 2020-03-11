@@ -11,9 +11,9 @@ class EmailAddressParser
   end
   
   def parse
-    if @email_addresses.length == 1
-    @email_addresses.split()
-  end
-
+    #@email_addresses.split()
+    binding.pry
+    puts "wtf"
+    
   end
 end
