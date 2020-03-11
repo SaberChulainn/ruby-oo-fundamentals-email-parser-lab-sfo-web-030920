@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    @email_addresses.map { |word| word.gsub(',') }
+    array.each{|string| puts string.tr("/12(\s+)?/", '')}
     #@email_addresses.split()
     binding.pry
     puts "wtf"
