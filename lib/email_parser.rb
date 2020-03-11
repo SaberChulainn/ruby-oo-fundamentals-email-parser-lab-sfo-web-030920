@@ -11,9 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    if @email_addresses.include?(',')
-    @email_addresses.delete(',')
-  end
+    if @email_addresses.length == 1
     @email_addresses.split()
 
   end
