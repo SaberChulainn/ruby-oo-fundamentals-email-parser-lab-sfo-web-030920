@@ -11,8 +11,8 @@ class EmailAddressParser
   end
   
   def parse
-    @email_addresses.tr(",", "")
-    @email_addresses.split()
+    @email_addresses.tr(',', '')
+    @email_addresses = @email_addresses.split
     binding.pry
     puts "."
     
